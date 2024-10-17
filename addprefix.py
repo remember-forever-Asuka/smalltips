@@ -27,3 +27,5 @@ for file in files:
         print(f"File {file} renamed to {new_filename}")
     else:
         print(f"The file {file} does not exist.")
+
+        #print
