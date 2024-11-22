@@ -7,7 +7,7 @@ if __name__ == '__main__':
     # 指定文件夹路径
     folder_path = r"E:\ultralytics-main\testtest\jpg\1.jpg"
     # 加载之前训练完的模型
-    model = YOLO(r"E:\ultralytics-main\testtest\weights\electric\electric.pt")
+    model = YOLO(r"D:\数据集\lt任务\正装检测\best.pt")
     # 遍历文件夹中的文件
     for filename in os.listdir(folder_path):
         # 判断文件是否为图片文件

@@ -82,11 +82,11 @@ if __name__ == '__main__':
     python split_datasets.py --image-dir my_datasets/color_rings/imgs --txt-dir my_datasets/color_rings/txts --save-dir my_datasets/color_rings/train_data
     """
     parser = argparse.ArgumentParser(description='split datasets to train,val,test params')
-    parser.add_argument('--image-dir', type=str, default=r'D:\数据集\lt任务\垂钓检测\数据集\v2.0\images',
+    parser.add_argument('--image-dir', type=str, default=r'D:\数据集\lt任务\正装检测\xrj\selected_images',
                         help='image path dir')
-    parser.add_argument('--txt-dir', type=str, default=r'D:\数据集\lt任务\垂钓检测\数据集\v2.0\labels-gai\labels',
+    parser.add_argument('--txt-dir', type=str, default=r'D:\数据集\lt任务\正装检测\xrj\labels',
                         help='txt path dir')
-    parser.add_argument('--save-dir', default='D:/数据集/lt任务/垂钓检测/数据集/v2.2', type=str,
+    parser.add_argument('--save-dir', default=r'D:\数据集\lt任务\正装检测\xrj\suitfordemo', type=str,
                         help='save dir')
     args = parser.parse_args()
     image_dir = args.image_dir
